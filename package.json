@@ -1,0 +1,16 @@
+{
+  "name": "x-state",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/x-state.umd.cjs",
+  "module": "./dist/x-state.js",
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "vite": "^6.0.5",
+    "vitest": "^0.1.0"
+  }
+}
